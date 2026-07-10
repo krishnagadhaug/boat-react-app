@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const View = () => {
 
@@ -116,7 +117,7 @@ const View = () => {
 )
   return (
     <div>
-
+<NavBar/>
 <div className="container">
     <h1><center><b>Boat Details</b></center></h1>
     <div className="row">
